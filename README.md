@@ -31,7 +31,7 @@ Sample datasets are pulled from the community repo: [mongodb-json-files](https:/
 |[Students](/datasets/students.json)|Students w/ multiple types of grades|35 kb|JSON
 |[Products](/datasets/products.json)|Products w/ price, rating, and type|2.8 kb|JSON
 |[Countries](/datasets/countries-small.json) (Small)|A list of countries|329 kb|JSON
-|[Countries](/datasets/countries-big.json) (Big)|A larger list of countries|2.3 Mb|JSON
+|[Countries](/datasets/countries-big.json) (Big)|A larger list of countries|2.3 mb|JSON
 |[Restaurants](/datasets/restaurants.json)|Restaurants w/ type of food, address, more|666 kb|JSON
 |[Books](/datasets/books.json)|Books w/ descriptions|525 kb|JSON
 
