@@ -2,9 +2,24 @@
 
 This repo is dedicated to resources for using [MongoDB on DigitalOcean](https://www.digitalocean.com/products/managed-databases/).
 
-- **[Sample Datasets](#sample-datasets)**: Use these to populate a new MongoDB database so you can use them in your demo apps
 - **[Sample Apps](#sample-apps)**: See how apps can integrate MongoDB
+- **[Sample Datasets](#sample-datasets)**: Use these to populate a new MongoDB database so you can use them in your demo apps
 - **[Tutorials](#tutorials)**: Watch and read on ways to build with MongoDB on DigitalOcean
+
+## Sample Apps
+
+Following are sample apps that you can deploy to DigitalOcean App Platform
+
+- Node API (Fastify + MongoDB)
+- Jamstack Blog (Strapi + Next.js + MongoDB)
+- Unsplash App (Strapi + Next.js + MongoDB)
+
+| App | Description | GitHub | Deploy |
+|-----|-------------|--------|--------|
+|Node API|Build a Node API using Fastify and MongoDB.|[Repo](https://github.com/do-community/node-fastify-api)|[![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/do-community/node-fastify-api/tree/master)|
+|Strapi + Next Blog|Create a backend CMS and API w/ Strapi and show data with a Next.js frontend.|[Strapi Repo](https://github.com/do-community/jamstack-blog-strapi) - [Next.js Repo](https://github.com/do-community/jamstack-blog-nextjs)|[![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/chris-on-code/jamstack-blog-strapi/tree/master)
+|Unsplash Clone|Use Strapi and Next.js to create an image uploads site.|[Strapi Repo]() - [Next.js Repo]()|
+
 
 ## Sample Datasets
 
@@ -14,7 +29,6 @@ Sample datasets are pulled from the community repo: [mongodb-json-files](https:/
 
 | Name | Size | Data type |
 |------|------|-----------|
-|[Tweets](/datasets/tweets.zip)|610 kb|zip -> dump folder
 |[Grades](/datasets/grades.json)|92 kb|JSON
 |[Students](/datasets/students.json)|35 kb|JSON
 |[Profiles](/datasets/profiles.json)|454 kb|JSON
@@ -29,7 +43,6 @@ Sample datasets are pulled from the community repo: [mongodb-json-files](https:/
 
 | Name | Size | Data type |
 |------|------|-----------|
-|[People](/datasets/people-bson.zip)|21 Mo|zip -> dump gzip
 |[City inspections](/datasets/city_inspections.json)|24 Mo|JSON
 |[Companies](/datasets/companies.json)|75 Mo|JSON
 
@@ -45,17 +58,6 @@ The quick tutorial for how to add these sample datasets to a MongoDB database on
 
 View the full tutorial: [How to Import Sample Data into MongoDB](/tutorial.md)
 
-## Sample Apps
-
-- Node API (Fastify + MongoDB)
-  -- Deploy to DO Button
-- Unsplash App (Strapi + MongoDB)
-  -- Deploy to DO Button
-
-| App | Description | Backend | Frontend |
-
-## Tutorials
-
 ## License
 
-[![Creative Commons](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![Creative Commons](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
