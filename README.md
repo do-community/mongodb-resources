@@ -18,33 +18,22 @@ Following are sample apps that you can deploy to DigitalOcean App Platform
 |-----|-------------|--------|--------|
 |Node API|Build a Node API using Fastify and MongoDB.|[Repo](https://github.com/do-community/node-fastify-api)|[![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/do-community/node-fastify-api/tree/master)|
 |Strapi + Next Blog|Create a backend CMS and API w/ Strapi and show data with a Next.js frontend.|[Strapi Repo](https://github.com/do-community/jamstack-blog-strapi) - [Next.js Repo](https://github.com/do-community/jamstack-blog-nextjs)|[![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/chris-on-code/jamstack-blog-strapi/tree/master)
-|Unsplash Clone|Use Strapi and Next.js to create an image uploads site.|[Strapi Repo]() - [Next.js Repo]()|
+|Unsplash Clone|Use Strapi and Next.js to create an image uploads site.|[Strapi Repo](https://github.com/do-community/unsplash-clone-strapi) - [Next.js Repo](https://github.com/do-community/unsplash-clone-nextjs)|
 
 
 ## Sample Datasets
 
 Sample datasets are pulled from the community repo: [mongodb-json-files](https://github.com/ozlerhakan/mongodb-json-files).
 
-### List of small datasets
-
-| Name | Size | Data type |
-|------|------|-----------|
-|[Grades](/datasets/grades.json)|92 kb|JSON
-|[Students](/datasets/students.json)|35 kb|JSON
-|[Profiles](/datasets/profiles.json)|454 kb|JSON
-|[Products](/datasets/products.json)|2.8 kb|JSON
-|[Countries](/datasets/countries-small.json) (Small)|329 kb|JSON
-|[Countries](/datasets/countries-big.json) (Big)|2.3 Mb|JSON
-|[Restaurants](/datasets/restaurant.json)|666 kb|JSON
-|[Covers](/datasets/covers.json)|470 kb|JSON
-|[Books](/datasets/books.json)|525 kb|JSON
-
-### List of bigger datasets
-
-| Name | Size | Data type |
-|------|------|-----------|
-|[City inspections](/datasets/city_inspections.json)|24 Mo|JSON
-|[Companies](/datasets/companies.json)|75 Mo|JSON
+| Name | Description | Size | Data type |
+|------|-------------|------|-----------|
+|[Grades](/datasets/grades.json)|Grades w/ types of exam|92 kb|JSON
+|[Students](/datasets/students.json)|Students w/ multiple types of grades|35 kb|JSON
+|[Products](/datasets/products.json)|Products w/ price, rating, and type|2.8 kb|JSON
+|[Countries](/datasets/countries-small.json) (Small)|A list of countries|329 kb|JSON
+|[Countries](/datasets/countries-big.json) (Big)|A larger list of countries|2.3 Mb|JSON
+|[Restaurants](/datasets/restaurants.json)|Restaurants w/ type of food, address, more|666 kb|JSON
+|[Books](/datasets/books.json)|Books w/ descriptions|525 kb|JSON
 
 ### How to use sample datasets
 
