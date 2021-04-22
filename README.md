@@ -2,9 +2,9 @@
 
 This repo is dedicated to resources for using [MongoDB on DigitalOcean](https://www.digitalocean.com/products/managed-databases/).
 
-- **Sample Datasets**: Use these to populate a new MongoDB database so you can use them in your demo apps
-- **Sample Apps**: See how apps can integrate MongoDB
-- **Tutorials**: Watch and read on ways to build with MongoDB on DigitalOcean
+- **[Sample Datasets](#sample-datasets)**: Use these to populate a new MongoDB database so you can use them in your demo apps
+- **[Sample Apps](#sample-apps)**: See how apps can integrate MongoDB
+- **[Tutorials](#tutorials)**: Watch and read on ways to build with MongoDB on DigitalOcean
 
 ## Sample Datasets
 
@@ -12,35 +12,26 @@ Sample datasets are pulled from the community repo: [mongodb-json-files](https:/
 
 ### List of small datasets
 
-[cols="^1,^2,^3,^4",options="header"]
-|=========================================================================================================
-|Name|Size|Data type|How to import
-|link:datasets/tweets.zip[Tweets]|610 Ko|zip -> dump folder|mongorestore
-|http://media.mongodb.org/zips.json[Zips]|3.1 Mo|JSON|mongoimport
-|link:datasets/palbum.zip[Palbum]|731 Ko|zip -> JSON files|mongoimport
-|link:datasets/grades.json[Grades]|92 Ko|JSON|mongoimport
-|link:datasets/students.json[Students]|35 Ko|JSON|mongoimport
-|link:datasets/profiles.json[Profiles]|454 Ko|JSON|mongoimport
-|link:datasets/products.json[Products]|2.8 Ko|JSON|mongoimport
-|link:datasets/countries-small.json[Countries small]|329 Ko|JSON|mongoimport
-|link:datasets/countries-big.json[Countries big]|2.3 Mo|JSON|mongoimport
-|link:datasets/restaurant.json[Restaurants]|666 Ko|JSON|mongoimport
-|link:datasets/covers.json[Covers]|470 Ko|JSON|mongoimport
-|link:datasets/books.json[Books]|525 Ko|JSON|mongoimport
-|=========================================================================================================
+| Name | Size | Data type |
+|------|------|-----------|
+|[Tweets](/datasets/tweets.zip)|610 kb|zip -> dump folder
+|[Grades](/datasets/grades.json)|92 kb|JSON
+|[Students](/datasets/students.json)|35 kb|JSON
+|[Profiles](/datasets/profiles.json)|454 kb|JSON
+|[Products](/datasets/products.json)|2.8 kb|JSON
+|[Countries](/datasets/countries-small.json) (Small)|329 kb|JSON
+|[Countries](/datasets/countries-big.json) (Big)|2.3 Mb|JSON
+|[Restaurants](/datasets/restaurant.json)|666 kb|JSON
+|[Covers](/datasets/covers.json)|470 kb|JSON
+|[Books](/datasets/books.json)|525 kb|JSON
 
 ### List of bigger datasets
 
-[cols="^1,^2,^3,^4",options="header"]
-|=========================================================================================================
-|Name|Size|Data type|How to import
-|link:datasets/people-bson.zip[People]|21 Mo|zip -> dump gzip|mongorestore --gzip
-|link:datasets/city_inspections.json[City inspections]|24 Mo|JSON|mongoimport
-|link:datasets/companies.json[Companies]|75 Mo|JSON|mongoimport
-|https://dl.dropbox.com/s/p75zp1karqg6nnn/stocks.zip[Stocks]|85 Mo|zip -> dump folder|mongorestore
-|https://dl.dropbox.com/s/gxbsj271j5pevec/trades.json[Trades]|232 Mo|JSON|mongoimport
-|https://dl.dropbox.com/s/nfnvx6pggmvw5vt/enron.zip[Enron]|55 Mo|RAR (named .zip for confusion) -> dump folder|mongorestore
-|=========================================================================================================
+| Name | Size | Data type |
+|------|------|-----------|
+|[People](/datasets/people-bson.zip)|21 Mo|zip -> dump gzip
+|[City inspections](/datasets/city_inspections.json)|24 Mo|JSON
+|[Companies](/datasets/companies.json)|75 Mo|JSON
 
 ### How to use sample datasets
 
@@ -52,7 +43,7 @@ The quick tutorial for how to add these sample datasets to a MongoDB database on
 1. Connect to your database from MongoDB Compass
 1. Upload one of these sample datasets
 
-View the [full tutorial](/tutorial.md)
+View the full tutorial: [How to Import Sample Data into MongoDB](/tutorial.md)
 
 ## Sample Apps
 
@@ -63,6 +54,8 @@ View the [full tutorial](/tutorial.md)
 
 | App | Description | Backend | Frontend |
 
+## Tutorials
+
 ## License
 
-image::http://i.creativecommons.org/p/zero/1.0/88x31.png[http://creativecommons.org/publicdomain/zero/1.0/]
+[![Creative Commons](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
