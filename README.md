@@ -6,6 +6,8 @@ This repo is dedicated to resources for using [MongoDB on DigitalOcean](https://
 - **[Sample Datasets](#sample-datasets)**: Use these to populate a new MongoDB database so you can use them in your demo apps
 - **[Tutorials](#tutorials)**: Watch and read on ways to build with MongoDB on DigitalOcean
 
+## TODO: FILL IN INFORMATION ABOUT HACKATHON
+
 ## Sample Apps
 
 Following are sample apps that you can deploy to DigitalOcean App Platform
