@@ -22,7 +22,7 @@ Following are sample apps that you can deploy to DigitalOcean App Platform
 
 | App | Description | GitHub | Deploy |
 |-----|-------------|--------|--------|
-|Node API|Build a Node API using Fastify and MongoDB.|[Repo](https://github.com/do-community/node-fastify-api)|[![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/do-community/node-fastify-api/tree/master)|
+|Node API|Build a Node API using Express and MongoDB.|[Repo](https://github.com/do-community/node-express-api)|[![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/do-community/node-express-api/tree/master)|
 |Strapi + Next Blog|Create a backend CMS and API w/ Strapi and show data with a Next.js frontend.|[Strapi Repo](https://github.com/do-community/jamstack-blog-strapi) - [Next.js Repo](https://github.com/do-community/jamstack-blog-nextjs)|[![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/chris-on-code/jamstack-blog-strapi/tree/master)
 |Unsplash Clone|Use Strapi and Next.js to create an image uploads site.|[Strapi Repo](https://github.com/do-community/unsplash-clone-strapi) - [Next.js Repo](https://github.com/do-community/unsplash-clone-nextjs)|[![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/chris-on-code/unsplash-clone-strapi/tree/master)
 
