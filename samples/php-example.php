@@ -2,8 +2,11 @@
 
 require_once __DIR__ . "/vendor/autoload.php";
 
+// NOTES ---------------------
 // were using the mongodb php driver
 // https://docs.mongodb.com/drivers/php/
+// ----------------------------
+
 $conn = new MongoDB\Client('mongodb+srv://db-mongodb-fra1-74534-85930535.mongo.ondigitalocean.com', array(
     'username' => 'doadmin',
     'password' => 'PASS_HERE',
